@@ -6,17 +6,6 @@ const Copyrights = ({ text }: CopyrightsProps) => {
   return (
     <Container className="text-center py-6">
       <p>{text ? text : 'Copyright © All rights reserved.'}</p>
-      <p className="mt-2 text-sm">
-        Graphic design by{' '}
-        <Link
-          href="https://themeforest.net/user/quomodotheme"
-          rel="nofollow"
-          target="_blank"
-          className="animated-line focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-primary"
-        >
-          QuomodoTheme
-        </Link>
-      </p>
     </Container>
   );
 };
