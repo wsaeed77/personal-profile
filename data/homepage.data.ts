@@ -33,8 +33,8 @@ export const homepageCtaData = {
 
 const timelineElements = [
   {
-    title: 'Full-Stack developer ',
-    subtitle: 'IT247 Solutions, Milton Keynes, United Kingdom',
+    title: 'Senior Software Engineer',
+    subtitle: 'Elemental Concept, London, United Kingdom',
     description: [
       'I built and maintained web applications using Scrum teamwork methods. I worked with an international team, and my clear English communication kept things smooth. I especially enjoyed creating a complex sales app with features specific to different travel brands, making it easier for users. I then used my skills to build an app that captured leads through user-friendly forms. My expertise in React and JavaScript allowed me to tackle these projects confidently.',
     ],
@@ -55,7 +55,33 @@ const timelineElements = [
       'Jira',
     ],
     isHighlighted: false,
-    badge: '01/2024 - 06/2024',
+    badge: '05/2020 - Present',
+    hightlightedBadge: 'Current',
+  },
+  {
+    title: 'Senior Software Engineer ',
+    subtitle: 'Nextbridge Ltd.',
+    description: [
+      'I built and maintained web applications using Scrum teamwork methods. I worked with an international team, and my clear English communication kept things smooth. I especially enjoyed creating a complex sales app with features specific to different travel brands, making it easier for users. I then used my skills to build an app that captured leads through user-friendly forms. My expertise in React and JavaScript allowed me to tackle these projects confidently.',
+    ],
+    tiles: [
+      'React',
+      'Redux',
+      'TypeScript',
+      'JavaScript',
+      'Jest',
+      'Next.js',
+      'PHP',
+      'Node Js',
+      'SASS',
+      'GIT',
+      'Github',
+      'Figma',
+      'Scrum',
+      'Jira',
+    ],
+    isHighlighted: false,
+    badge: '07/2015 - 11/2020',
     hightlightedBadge: 'Current',
   },
   {
@@ -82,7 +108,7 @@ const timelineElements = [
       'Team leadership',
     ],
     isHighlighted: false,
-    badge: '09/2020 - 06/2024',
+    badge: '07/2014 - 07/2015',
     hightlightedBadge: 'Current',
   },
   {
@@ -109,7 +135,7 @@ const timelineElements = [
   },
   {
     title: 'Software Engineer',
-    subtitle: 'Abstract Services Ltd',
+    subtitle: 'Fliegen IT Solutions',
     description: [
       'Crafted user-friendly WordPress websites from the ground up. Each project was designed with a focus on clean aesthetics and a smooth user experience. My dedication to detail ensures pixel-perfect websites that deliver a seamless user experience.',
     ],
@@ -123,7 +149,7 @@ const timelineElements = [
       'UX',
     ],
     isHighlighted: false,
-    badge: '08/2014 - 09/2015',
+    badge: '04/2014 - 06/2014',
     hightlightedBadge: 'Current',
   },
 ].map((element, i) => {
